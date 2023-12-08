@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [openlogin, setOpenlogin] = useState(false)
+
+    const switchSave = () => {
+        setOpenlogin(false)
+    }
     return (
         <div className='Navbar'>
             <h1>Logo</h1>
@@ -21,7 +25,7 @@ const Navbar = () => {
                 <button onClick={() => setOpenlogin(true)} className='SignIn'>SignIn</button>
             </div>
 
-            {openlogin && <Login />}
+            {openlogin && <Login  onClose={switchSave} />}
 
         </div>
     );

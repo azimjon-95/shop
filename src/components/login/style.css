@@ -1,0 +1,30 @@
+.Login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.563);
+}
+
+.Form{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#close{
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    right: 30px;
+    top: 100px;
+}
