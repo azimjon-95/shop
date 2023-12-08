@@ -15,6 +15,7 @@ const Products = () => {
                 <input onChange={(e) => setSearch(e.target.value)} type="text" name="" id=""/>
                 <button><FaSearch/></button>
             </div>
+            
             <div className='Products'>
                 {/* {Data?.filter(i => i.title === search).map((value, inx) => { */}
                 {Data?.map((value, inx) => {
