@@ -2,9 +2,10 @@ import React from 'react';
 import { Button, Checkbox, Form, Input } from 'antd';
 import './style.css';
 
-const Login = () => (
+const Login = ({onClose}) => (
     <div className="Login">
-        <Form className='Form'
+        <h1 onClick={ onClose } id='close'>X</h1>
+        <Form  className='Form'
             name="basic"
             labelCol={{
                 span: 8,

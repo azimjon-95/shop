@@ -777,19 +777,6 @@ const allData = [
         fullinfo: ["Uskunalar: 1 dona", "Material: Polyester", "Parda lentasidagi pardalar 6 sm", "Teginganda yumshoq va baxmal", "Komplekta pardalar kanchasiz", "Maqsad: yotoqxona, bolalar xonasi, oshxona, yashash xonasi uchun", "Rang haqiqiydan bir necha tonnaga farq qilishi mumkin, bu holat ranglarning ko'payishi bilan bog'liq va zavod nikohi emas.", "O'lcham: 150*280 sm"
         ]
     }
-    ,
-    {
-        title: "Choyshab",
-        description: "Choyshab bilan qoplangan ikki kishilik choyshablar to'plami",
-        price: 220000,
-        images: ["https://images.uzum.uz/ck6lgprk9fqd6b9u0smg/original.jpg", "https://images.uzum.uz/ck6lgt4jvf2su072qnf0/original.jpg", "https://images.uzum.uz/ck6lh13k9fqd6b9u0sqg/original.jpg", "https://images.uzum.uz/ck3cs3kvutvccfo2gcq0/original.jpg"],
-        type: "Buyumlar",
-        delivery: "1 kun, bepul",
-        color: "blue",
-        sizes: [],
-        fullinfo: ["Mato HB saten 70 %", "Teginganda yumshoq va baxmal", "Yostiq jildlar: 50  70 2 dona", "Adyol 220  200, hoyshab 220  230"
-        ]
-    }
 ]
 
 function addID(allData) {
