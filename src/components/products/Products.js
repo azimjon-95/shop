@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 import Data from '../../Data'
 import { Link } from 'react-router-dom';
+import { FaSearch } from "react-icons/fa";
 
 const Products = () => {
 
@@ -11,8 +12,8 @@ const Products = () => {
         <>
             <br />
             <div className="searchBar">
-                <input onChange={(e) => setSearch(e.target.value)} type="text" name="" id="" />
-                <button>Search</button>
+                <input onChange={(e) => setSearch(e.target.value)} type="text" name="" id=""/>
+                <button><FaSearch/></button>
             </div>
             <div className='Products'>
                 {/* {Data?.filter(i => i.title === search).map((value, inx) => { */}
