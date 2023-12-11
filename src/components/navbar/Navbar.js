@@ -34,7 +34,7 @@ const Navbar = () => {
 <div class="container1">
                <div class="navbar">
                     {/* <img src={ali} class="ali_svg"/> */}
-                    <h1 className='ali_svg'>SHOPSITe</h1>
+                    <h1 className='ali_svg'>SHOPSITE</h1>
                     <ul class="navbar_ul">
                          <li class="navbar_li">
                               <a href="#">

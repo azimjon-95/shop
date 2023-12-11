@@ -1,12 +1,13 @@
 .navbar {
     border: 2px solid red;
-    width: 1384px;
+    width: 100%;
     height: 70px;
     background-color: #FE2722;
     display: flex;
     border-radius: 5px;
     margin: auto;
-    margin-top: 11px;
+    margin-top: 10px;
+    justify-content: space-between;
 }
 
 .ali_svg {
@@ -121,13 +122,15 @@
 }
 
 .hasbro {
-    width: 798px;
+    width: auto;
     height: 52px;
     border-radius: 6px;
     font-size: 13px;
     border: none;
     outline: none;
     margin-top: -7px;
+    max-width: 798px;
+    min-width: 698px;
 }
 
 .hasbro::placeholder {
